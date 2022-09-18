@@ -1,0 +1,138 @@
+@import "~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss";
+.dialogContainer {
+  min-height: 150px;
+  background: transparent;
+}
+.ms-Dialog-main {
+  .panelContainer {
+    display: none !important;
+  }
+}
+.progressIndicator {
+  font: 10 pt;
+}
+.successIcon {
+  position: relative;
+  -webkit-transform: translateX(-50%) scale(0.3, 0.3);
+  transform: translateX(-50%) scale(0.3, 0.3);
+  -webkit-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  background-color: #599b00;
+  color: #ffffff;
+  font-size: 21px;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-left: 5%;
+}
+.failureIcon {
+  position: relative;
+  -webkit-transform: translateX(-50%) scale(0.3, 0.3);
+  transform: translateX(-50%) scale(0.3, 0.3);
+  -webkit-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  background-color: red;
+  color: #ffffff;
+  font-size: 21px;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-left: 5%;
+}
+.header {
+  font-size: 18px;
+  padding: 5px;
+  font-weight:600;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.headerSuccess {
+  font-size: 16px;
+  padding: 5px;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  color:#599b00;
+}
+.headerError {
+  font-size: 16px;
+  padding: 5px;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  color:red;
+}
+.details {
+  font-size: 14px;
+  padding: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: pre-line;
+ 
+}
+.detailsBold {
+  font-size: 14px;
+  padding: 5px;
+  font-weight:600;
+  color:#696969;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+ 
+}
+.borderBottomBlue
+{
+  border-bottom: 1px solid #599b00;
+}
+.borderBottomRed
+{
+  border-bottom: 1px solid red;
+}
+.detailsError
+{
+  font-size: 14px;
+  padding: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: pre-line;
+  color:red;
+}
+.container
+{
+  max-height:500px;
+  overflow: auto;
+}
+.topPadding {
+  padding-top: 60px;
+  overflow: hidden;
+}
+
+:global {
+  .ms-Dialog-main {
+    min-height: 150px;
+  }
+}

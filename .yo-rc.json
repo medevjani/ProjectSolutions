@@ -1,0 +1,17 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "project-solutions",
+    "libraryId": "2e2493a2-be29-4421-9430-d13a87dab4e0",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "project-solutions",
+    "solutionShortDescription": "project-solutions description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ListViewCommandSet"
+  }
+}

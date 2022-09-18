@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://devjaniworkbench.sharepoint.com/sites/TestProjectSite/Lists/Project%20Task/AllItems.aspx",
+      "customActions": {
+        "3d111d7b-c0f2-4788-a574-59566d05803f": {
+          "location": "ClientSideExtension.ListViewCommandSet",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    },
+    "addTransaction": {
+      "pageUrl": "https://devjaniworkbench.sharepoint.com/sites/TestProjectSite/Lists/Project%20Task/AllItems.aspx",
+      "customActions": {
+        "3d111d7b-c0f2-4788-a574-59566d05803f": {
+          "location": "ClientSideExtension.ListViewCommandSet",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    }
+  }
+}
